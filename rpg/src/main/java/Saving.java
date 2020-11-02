@@ -1,13 +1,12 @@
 import java.io.*;
 import java.io.File;
 import java.io.FilenameFilter;
-import java.util.ArrayList;
 
 public class Saving implements FilenameFilter {
 
     private Execute execute;
-    private String defaultSave = "./Savegames/quicksave.ser";
-    private String defaultLoad = "./Savegames/quicksave.ser";
+    private String defaultSave = "./src/main/java/Savegames/quicksave.ser";
+    private String defaultLoad = "./src/main/java/Savegames/quicksave.ser";
     private String str;
     private File f;
     private String[] paths;
@@ -64,7 +63,7 @@ public class Saving implements FilenameFilter {
 
     public void listFiles() {
 
-        f = new File("./Savegames");
+        f = new File("./src/main/java/Savegames");
 
         try {
             FilenameFilter filter = new Saving("ser");

@@ -103,7 +103,7 @@ public class Execute {
                 System.out.println("File name?");
                 String name = scan.nextLine();
                 String name2 = scan.nextLine();
-                String address = "./Savegames/" + name2 + ".ser";
+                String address = "./src/main/java/Savegames/" + name2 + ".ser";
                 this.saveObj.save(address);
                 System.out.printf("Serialized data is saved in " + address + "\n");
             }
@@ -111,7 +111,7 @@ public class Execute {
                 System.out.println("Which file? (-1: none)");
                 this.saveObj.listFiles();
                 int whichFile = scan.nextInt();
-                this.saveObj.load("./Savegames/" + saveObj.getPaths()[whichFile]);
+                this.saveObj.load("./src/main/java/Savegames/" + saveObj.getPaths()[whichFile]);
                 System.out.println("You have loaded.");
             }
         }
