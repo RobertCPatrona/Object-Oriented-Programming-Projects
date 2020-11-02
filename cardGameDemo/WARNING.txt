@@ -1,0 +1,3 @@
+WARNING - DO NOT CHANGE THE FILES IN THIS FOLDER, OR ANY IN IT
+
+This is the demo program for a MVC project. This is not meant as a foundation for your own project.

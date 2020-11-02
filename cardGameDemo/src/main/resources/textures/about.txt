@@ -1,0 +1,12 @@
+The pictures in this folder can be found at
+https://commons.wikimedia.org/wiki/Playing_card
+
+They were converted from jpg to png via the convert program available as a
+part of ImageMagick (http://www.imagemagick.org) in order to work better with
+Java as Java is better compatible with png-images.
+
+All these images are part of the public domain, which means you have the right
+to use this work for any purpose, without any conditions, unless such
+conditions are required by law.
+
+Sadly the king of clubs has an artefact.
